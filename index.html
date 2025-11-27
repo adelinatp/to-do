@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do & Completed</title>
+</head>
+
+<body>
+    <!-- To Do si Completed
+1. sa poti adauga in to do task uri noi
+2. sa poti muta in completed task urile din to do -->
+
+    <div class="inputField">
+        <div class="input">
+            <input type="text" placeholder="Add a new task" id="taskInput">
+            <button id="addTaskBtn">Add</button>
+        </div>
+
+        <h2>TO DO</h2>
+        <ul id="taskList" class="taskList">
+        </ul>
+
+        <h2>COMPLETED</h2>
+        <ul id="completed" class="taskList">
+            <!-- <li class="completed">lfdgrdedist</li>
+            <button class="removeButton">Remove</button>
+            <li class="completed">lfdgrdedist</li>
+            <button class="removeButton">Remove</button>
+            <li class="completed">lfdgrdedist</li>
+            <button class="removeButton">Remove</button> -->
+
+            <!-- <button class="removeButton" id="removeTask">Remove</button> -->
+
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

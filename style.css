@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins';
+    background-color: #ffc58f;
+}
+
+.inputField {
+    background-color: #fcf4e2;
+    border-radius: 1.5rem;
+    margin: 100px 30% 100px 30%;
+    padding: 40px;
+    color: #3a2319;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.144) 0px 6px 6px;
+}
+
+.input, h2 {
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+}
+
+.input>input {
+    border-radius: 2rem;
+    border: none;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+button{
+    border-radius: 25px;
+    border: none;
+    margin-left: 12px;
+    width: 80px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.input>button {
+    background-color: #3a2319;
+    color: #ffe7d3;
+}
+
+.input>button:hover {
+    background-color: #ffffff;
+    color: #3a2319;
+}
+
+.removeButton {
+    background-color: #ab0000;
+    color: #ffe7d3;
+    height: 40px;
+}
+
+.removeButton:hover {
+    background-color: #ffcfbc;
+    color: #ff0000;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+.completed{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.333);
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#taskList{
+    display: flex;
+    flex-direction:column-reverse;
+}
+.taskList{
+    list-style-type: none;
+    padding: 0 60px 0 60px;
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+
